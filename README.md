@@ -1,5 +1,5 @@
 # DraggableApp
-App created for example https://github.com/computerjazz/react-native-draggable-flatlist library, With resources using style components.
+App created for example https://github.com/computerjazz/react-native-draggable-flatlist library, with resources using style components.
 
 
 
