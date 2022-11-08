@@ -8,7 +8,7 @@ export type ItemSchema = {
 
 const NUM_ITEMS = 10;
 
-function getColor(i: number) {
+function getButtonBackgroundColor(i: number) {
   const multiplier = 255 / (NUM_ITEMS - 1);
   const colorVal = i * multiplier;
   return `rgb(${colorVal}, ${Math.abs(128 - colorVal)}, ${255 - colorVal})`;
@@ -16,7 +16,7 @@ function getColor(i: number) {
 
 export const initialData: ItemSchema[] = [...Array(NUM_ITEMS)].map(
   (_, index) => {
-    const backgroundColor = getColor(index);
+    const backgroundColor = getButtonBackgroundColor(index);
 
     return {
       height: 100,
